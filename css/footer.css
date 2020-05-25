@@ -1,0 +1,38 @@
+.main-footer{
+	padding: 60px 0;
+	background-color: grey;
+	text-align: center;
+	color: #4E5355;
+}
+
+.footer-logo{
+	font-family: Arial, sans-serif;
+	font-size: 22px;
+	line-height: 1.2;
+}
+
+.footer-logo span{
+	display: block;
+	color: #707476;
+	font-size: 27px;
+}
+
+.footer-copy{
+	font-size: 50px; 
+	font-weight: bold;
+	color: #494D50;
+	margin-top: 20px;	
+}
+
+.footer-copy i{
+	padding: 25px;
+}
+
+@media (max-width: 480px){
+.main-footer{
+       padding: 40px 0;
+   }
+   .footer-copy{
+       margin-top: 10px;
+   }
+}

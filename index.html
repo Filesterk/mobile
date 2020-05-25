@@ -1,0 +1,213 @@
+<!doctype html>
+ 
+<html lang="ru">
+<head>
+  <meta charset="utf-8"> 
+  <title>Grid_Site</title>  
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/header.css">
+      <link rel="stylesheet" href="css/portfolio.css">
+      <link rel="stylesheet" href="css/landing-section.css">
+      <link rel="stylesheet" href="css/formsection.css">
+      <link rel="stylesheet" href="css/blog-section.css">
+      <link rel="stylesheet" href="css/slider.css">
+      <link rel="stylesheet" href="css/footer.css">
+
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/font-awesome.css" type="text/css"> 
+   
+</head> 
+<body>
+
+<!--Header-->
+  
+<div class="bg-img">
+    <div class="container">
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </div>
+    <div class="header-content">
+      <h1 class="glow">Lorem ipsum dolor sit.</h1> 
+      <div class="header-item-img">
+        <span style="background-image: url(img/bg1.jpg);"></span>
+        <span style="background-image: url(img/bg2.jpg);"></span> 
+      </div>            
+    </div>
+</div>
+
+<!--Portfolio-->
+
+<section class="portfolio-section grid">
+    <div class="portfolio-item grid" style="background-image: url(img/port1.jpg)"><span>Project Ara</span></div>
+    <div class="portfolio-item grid" style="background-image: url(img/port2.jpg)"><span>Digno Rafre</span></div>
+    <div class="portfolio-item grid" style="background-image: url(img/port3.jpg)"><span>Motorola V70</span></div>
+    <div class="portfolio-item grid" style="background-image: url(img/port4.jpg)"><span>Hyundai MP-280</span></div>
+    <div class="portfolio-item grid" style="background-image: url(img/port5.jpg)"><span>Nokia 888</span></div>
+    <div class="portfolio-item grid" style="background-image: url(img/port6.jpg)"><span>Dbtel M50</span></div>
+    <div class="portfolio-item grid" style="background-image: url(img/port7.jpg)"><span>Nokia “Green”</span></div>
+    <div class="portfolio-item grid" style="background-image: url(img/port8.jpg)"><span>NeoWood Cobra</span></div>
+    <div class="portfolio-item grid" style="background-image: url(img/port9.jpg)"><span>Freedom 251</span></div>
+    <div class="buttoncase-first text-center">
+      <h2>Необычные телефоны в мире</h2>
+      <p>Project Ara – первый модульный смартфон от Google<br>
+      Digno Rafre – первый смартфон, который можно мыть<span id="dots">...</span><br><span id="more">
+      Motorola V70 - вращающаяся на 360 градусов верхняя панель<br>
+      Hyundai MP-280 - выбрызгивает порцию ароматных духов при каждом открытии крышки<br>
+      Nokia 888 - отличается гибкостью корпуса, можно поменять форму самостоятельно<br>
+      Dbtel M50 - наличие особого джойстика, благодаря которому осуществляется взаимодействие с интерфейсом<br>
+      Nokia “Green” - известный под названием «телефон с газировкой»<br>
+      NeoWood Cobra Limited Edition - чисто дизайнерская забава, но которая может звонить, 
+      фотографировать и проигрывать музыку<br>
+      Freedom 251 – самый дешевый смартфон в мире<br></span></p>
+  
+<button onclick="myRead()" id="myBtn">Read more</button>
+    </div>
+</section>
+
+<!--Landing-section-->
+  
+  <section class="section-ready landing-section">    
+      <div class="container grid">
+          <div class="ready-left">
+              <h2>Самый дорогой телефон в мире</h2>
+              <h3>Falcon SuperNova iPhone Pink Diamond</h3>
+              <h4>Цена телефона — 100 млн долларов</h4>
+              <a href="javascript:Spoiler();" class="link_spoiler" id="linkSpoiler">Подробнее</a>
+              <div id="contentSpoiler" style="display: none;">
+              <p class="read">Американский люксовый бренд Falcon создал модель iPhone 6 и iPhone 6 Plus. Миллионы в ценнике объясняются тем, что корпус телефона сделан из драгоценных металлов и украшен бриллиантом. Модель создана в 3 видах:<br>  
+              - платина 950 пробы Platinum iPhone;<br>
+              - розовое золото 18 карат Rose Gold iPhone;<br>
+              - желтое золото 18 карат Gold iPhone.</p>
+            </div>
+          </div>
+          <div class="ready-right">
+              <img src="img/max-tel.jpg" alt="" class="img-responsive">
+          </div>
+      </div>
+  </section>
+
+<!--Formsection-->
+
+  <section class="formsection">
+      <div class="container">
+          <form class="grid">
+              <div><input type="text" name="name" placeholder="Yuor name" required></div>
+              <div><input type="text" name="name" placeholder="Yuor name"></div>
+              <div><input type="text" name="name" placeholder="Yuor name"></div>
+              <div><button class="button">Yes</button></div>
+          </form>
+      </div>
+  </section>
+
+<!--Blog-section-->
+
+  <section class="landing-section section-blog">
+      <div class="container">
+          <h2>Интернет-магазин телефонов</h2>
+        <div class="blog-home grid">
+            <a href="#" class="blog-item grid">
+                <span class="blog-item-img" style="background-image: url(img/phone1.jpg);"></span>
+            <span class="blog-item-content grid">
+                <h4>BLACK DIAMOND VIPN SMARTPHONE</h4>
+                <p>Price: 300 000$</p>
+            </span>
+            </a>
+            <a href="#" class="blog-item grid">
+                <span class="blog-item-img" style="background-image: url(img/phone2.jpg);"></span>
+            <span class="blog-item-content grid">
+                <h4>VERTU BOUCHERON COBRA</h4>
+                <p>Price: 310 000$</p>
+            </span>
+            </a>
+            <a href="#" class="blog-item grid">
+                <span class="blog-item-img" style="background-image: url(img/phone3.jpg);"></span>
+            <span class="blog-item-content grid">
+                <h4>SUPREME GOLDSTRIKER IPHONE 3G</h4>
+                <p>Price: 3 200 000$</p>
+            </span>
+            </a>
+            <a href="#" class="blog-item grid">
+                <span class="blog-item-img" style="background-image: url(img/phone4.jpg);"></span>
+            <span class="blog-item-content grid">
+                <h4>IPHONE 4 DIAMOND ROSE</h4>
+                <p>Price: 8 000 000$</p>
+            </span>
+            </a>
+            <a href="#" class="blog-item grid">
+                <span class="blog-item-img" style="background-image: url(img/phone5.jpg);"></span>
+            <span class="blog-item-content grid">
+                <h4>GOLDVISH LE MILLION</h4>
+                <p>Price: 1 300 000$</p>
+            </span>
+            </a>
+            <a href="#" class="blog-item grid">
+                <span class="blog-item-img" style="background-image: url(img/phone6.jpg);"></span>
+            <span class="blog-item-content grid">
+                <h4>DIAMOND CRYPTO SMARTPHONE</h4>
+                <p>Price: 1 300 000$</p>
+            </span>
+            </a>         
+        </div>
+      </div>
+  </section>
+
+<!--Slider-->
+<section class="remont">
+  <h1>Основные услуги по ремонту</h1>
+  <div class="slider">
+
+    <div class="item">
+        <img src="img/slide1.jpg" alt="Первый слайд">
+        <div class="slideText">Замена дисплея</div>
+    </div>
+
+    <div class="item">
+        <img src="img/slide2.jpg" alt="Второй слайд">
+        <div class="slideText">Ремонт корпуса</div>
+    </div>
+
+    <div class="item">
+        <img src="img/slide3.jpg" alt="Третий слайд">
+        <div class="slideText">Настройка функций</div>
+    </div>
+
+    <a class="prev" onclick="minusSlide()">&#10094;</a>
+    <a class="next" onclick="plusSlide()">&#10095;</a>
+
+    <div class="slider-dots">
+        <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+    </div>
+
+</div>
+</section>
+<!--Footer-->
+
+  <footer class="main-footer">
+      <div class="container">
+          <div class="footer-logo">
+              Контакты<span>Всяжитесь с нами</span>
+          </div>
+          <div class="footer-copy"><i class="fa fa-facebook-official" aria-hidden="true"></i><i class="fa fa-twitter" aria-hidden="true"></i><i class="fa fa-github" aria-hidden="true"></i></div>
+      </div>
+  </footer>
+   
+    <script src="js/navbar.js"></script>
+    <script src="js/more.js"></script>
+    <script src="js/readmore.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
